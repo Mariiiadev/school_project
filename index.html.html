@@ -1,0 +1,81 @@
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Страви світу</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Страви різних країн світу</h1>
+  </header>
+
+  <div id="menu">
+    <button onclick="showHome()">Головна</button>
+    <button onclick="showItaly()">Італія</button>
+    <button onclick="showJapan()">Японія</button>
+  </div>
+
+  <div id="home">
+    <h2>Головна сторінка</h2>
+    <p>Ласкаво просимо! Тут можна дізнатися про смачні страви різних країн.</p>
+
+    <h3>Популярні страви</h3>
+    <ul>
+      <li>Італія — Піцца</li>
+      <li>Японія — Суші</li>
+      <li>Індія — Карі</li>
+    </ul>
+
+    <h3>Відео про кухні світу</h3>
+    <video width="300" controls autoplay loop muted>
+      <source src="https://vimeo.com/1139843544?share=copy&fl=sv&fe=ci" type="video/mp4">
+    </video>
+  </div>
+
+  <div id="italy" style="display:none;">
+    <h2>Італійська кухня</h2>
+    <ul>
+      <li>Піцца Маргарита</li>
+      <li>Паста Карбонара</li>
+      <li>Лазанья</li>
+      <li>Тірамісу</li>
+    </ul>
+    <img src="https://i.imgur.com/4dJ5wJ4.jpeg" alt="Піцца" width="300">
+
+    <h3>Замовити страву</h3>
+    <form>
+      Ім'я: <input type="text"><br><br>
+      Страва:
+      <select>
+        <option>Піцца</option>
+        <option>Паста</option>
+        <option>Лазанья</option>
+      </select><br><br>
+      <button type="submit">Відправити</button>
+    </form>
+  </div>
+
+  <div id="japan" style="display:none;">
+    <h2>Японська кухня</h2>
+    <ol>
+      <li>Суші</li>
+      <li>Рамен</li>
+      <li>Темпура</li>
+    </ol>
+    <img src="https://i.imgur.com/xvC0wM0.jpg" alt="Суші" width="300">
+
+    <h3>Цікавий факт</h3>
+    <p>Суші виникло понад 1000 років тому і спочатку було способом зберігання риби.</p>
+  </div>
+
+  <footer>
+    <p>© 2025. Страви світу.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

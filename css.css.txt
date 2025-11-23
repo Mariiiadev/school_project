@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #5a8dee;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#menu {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+#menu button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#menu button:hover {
+  background: #111;
+}
+
+#home {
+  padding: 20px;
+}
+
+#italy {
+  padding: 20px;
+}
+
+#japan {
+  padding: 20px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
